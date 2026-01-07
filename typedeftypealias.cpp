@@ -18,7 +18,7 @@
 /*
     I see this as a nickname, a shorter name I can type in instead of the long thing I have to call back to reference
 
-    ^Wrong, below I put type alias for int for clearer understanding of what the ints are going to be, yes its a nickname
+    ^ **Wrong, below I put type alias for int for clearer understanding of what the ints are going to be, yes its a nickname
     but not typing it more conveniently but for readability and understanding 
 */
 
@@ -29,9 +29,10 @@ using health = int;
 using mana = int;
 using level = int;
 using stamina = int;
+using name = std::string;
 
 // Setting up stats for a character
-const std::string playerName = " Big Man";
+const name playerName = " Big Man";
 const health hp = 100;
 const mana mp = 50;
 const stamina sp = 100;
